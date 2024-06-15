@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heritage-Contact us</title>
+</head>
+<style>
+	body{
+		padding: 0px;
+		margin: 0px;
+        display: flex;
+        flex-direction: column;
+		width: 100%;
+        height: 100vh;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	nav{
+        color: white;
+        background-color: #404040;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+		font-size: 21px;
+        padding: 10px;
+        margin: 0;
+	}
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        padding: 5px;
+        margin: 0 7px;
+    }
+    
+    nav a:hover{
+        border-bottom: 2px solid #e8e8e8;
+    }
+	.section1{
+		height: 100%;
+		background-image: url("https://images.adsttc.com/media/images/5c49/0f6e/284d/d13e/b300/00a7/large_jpg/EXT_Night_Pool1.jpg?1548291941");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+    #background{
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+		justify-content: center;
+		align-items: center;
+    }
+    main{
+        flex-grow: 1;
+    }
+	#intro{
+        color: white;
+		width: 50%;
+		text-align: center;
+	}
+	#Heritage{
+		font-size: 25px;
+        font-weight: bolder;
+        opacity: 1;
+	}
+    #Description{
+        font-weight: bold;
+        font-size: 19px;
+    }
+    footer{
+        background-color: #333333;
+        color: white;
+        display: flex;
+        font-size: 13px;
+        justify-content: space-evenly;
+    }
+    footer div{
+        width: 35%;
+        text-align: justify;
+        padding: 10px;
+    }
+    footer p{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    button{
+        padding: 10px;
+        border: none;
+        border-radius: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+        background-color: #1a1a1a;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+	
+    @media only screen and (max-width: 515px){
+        nav{
+            justify-content: space-evenly;
+        }
+        nav a{
+            font-size: 14px;
+			padding: 5px;
+			
+        }
+        #Heritage{
+		    font-size: 20px;
+	    }  
+        #Description,button{
+            font-size: 14px;
+        }
+        footer{
+            font-size: 10px;
+        }
+		
+        footer p{
+            font-size: 14px;
+        }
+        .section1{
+            background-image: url("https://1.bp.blogspot.com/-G3g56HD2kBw/XTra3HALP6I/AAAAAAAAIXI/ZGkP5sQIoCs_kNCM2Qhv3dTVGSgRKfGkgCLcBGAs/architecture-buildings-chicago-mobile-wallpaper.jpg?dl=1");
+        }
+        form{
+            width: 100%;
+        }
+        img{
+            width: 30px;
+        }
+        
+        
+    }
+    form{
+        width: 50%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    form input, textarea{
+      border: none;
+      border-radius: 10px;
+      margin: 5px;
+      padding: 10px;
+      background-color: #404040;
+      color: white;
+      outline: none;
+      resize: none;
+    }
+    img{
+        width: 50px;
+    }
+    #social-media a{
+        margin: 10px;
+    }
+    #background p{
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin: 0 10px;
+    }
+</style>
+<body>
+  <header>
+	<nav>
+		<div class="nav-link">
+			<a href="Business.html">Home</a>
+			<a href="#">Contact</a>
+			<a href="Service.html">Services</a>
+			<a href="#">About us</a>
+		</div>
+	</nav>
+  </header>
+  <main>
+		<section class="section1">
+            <div id="background">
+                <p>If you have any inquries or just want to connect, feel free to reach out.</p>
+                <form>
+                    <input type="text" placeholder="Enter your name" maxlength="20">
+                    <input type="email" placeholder="Enter email" maxlength="20">
+                    <textarea placeholder="Message"></textarea>
+                    <button>Submit</button>
+                </form>
+                <div id="social-media">
+                    <a href="#"><img src="https://img.icons8.com/?size=100&id=118497&format=png&color=000000"></a>
+                    <a href="#"><img src="https://img.icons8.com/?size=100&id=32323&format=png&color=000000"></a>
+                    <a href="#"><img src="https://img.icons8.com/?size=100&id=16713&format=png&color=000000"></a>
+                    <a href="#"><img src="https://img.icons8.com/?size=100&id=19318&format=png&color=000000"></a>
+               </div>
+            </div>
+		</section>
+  </main>
+  <footer>
+    <div>
+        <p>History</p>
+        Heritage Company was formed by John Doe in 1999. 
+        The company is dedicated to delivering high-quality services
+        and innovative solutions tailored to meet the unique needs
+        of its clients.
+    </div>
+    <div>
+        <p>Growth</p>
+        Over the years, Heritage has become a trusted
+        partner for businesses worldwide, providing exceptional
+        results and ensuring client success.
+    </div>
+    <div>
+        <p>Contact</p>
+        Contact us today to learn more about how Heritage can
+        help your business thrive. Our legacy of success and
+        commitment to excellence ensures we deliver the best
+        solutions for our clients.
+    </div>
+  </footer>
+</body>
+</html>
+
+
